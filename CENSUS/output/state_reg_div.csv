@@ -1,0 +1,52 @@
+state,division,region,StateCodeFIPS
+Connecticut,New England,Northeast,09
+Maine,New England,Northeast,23
+Massachusetts,New England,Northeast,25
+New Hampshire,New England,Northeast,33
+Rhode Island,New England,Northeast,44
+Vermont,New England,Northeast,50
+New Jersey,Middle Atlantic,Northeast,34
+New York,Middle Atlantic,Northeast,36
+Pennsylvania,Middle Atlantic,Northeast,42
+Indiana,East North Central,Midwest,18
+Illinois,East North Central,Midwest,17
+Michigan,East North Central,Midwest,26
+Ohio,East North Central,Midwest,39
+Wisconsin,East North Central,Midwest,55
+Iowa,West North Central,South,19
+Kansas,West North Central,South,20
+Minnesota,West North Central,South,27
+Missouri,West North Central,South,29
+Nebraska,West North Central,South,31
+North Dakota,West North Central,South,38
+South Dakota,West North Central,South,46
+Delaware,South Atlantic,South,10
+District of Columbia,South Atlantic,South,11
+Florida,South Atlantic,South,12
+Georgia,South Atlantic,South,13
+Maryland,South Atlantic,South,24
+North Carolina,South Atlantic,South,37
+South Carolina,South Atlantic,South,45
+Virginia,South Atlantic,South,51
+West Virginia,South Atlantic,South,54
+Alabama,East South Central,South,01
+Kentucky,East South Central,South,21
+Mississippi,East South Central,South,28
+Tennessee,East South Central,South,47
+Arkansas,West South Central,West,05
+Louisiana,West South Central,West,22
+Oklahoma,West South Central,West,40
+Texas,West South Central,West,48
+Arizona,Mountain,West,04
+Colorado,Mountain,West,08
+Idaho,Mountain,West,16
+New Mexico,Mountain,West,35
+Montana,Mountain,West,30
+Utah,Mountain,West,49
+Nevada,Mountain,West,32
+Wyoming,Mountain,West,56
+Alaska,Pacific,West,02
+California,Pacific,West,06
+Hawaii,Pacific,West,15
+Oregon,Pacific,West,41
+Washington,Pacific,West,53
