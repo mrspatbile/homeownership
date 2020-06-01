@@ -6,11 +6,7 @@
 		<title>House Prices & Homeownership</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" href="../dist/reveal.css">
-		<link rel="stylesheet" href="../dist/theme/simple.css" id="theme">
-
-
-
-		<!-- define your css here first -->
+		<link rel="stylesheet" href="../dist/theme/simplePatricia.css" id="theme">
 
 	</head>
 	<body>
@@ -18,49 +14,53 @@
 			<div class="slides">
 				<!------------------------------------------  TITLE  -------------------------------------------------->
 				<section data-vertical-align-center>
-					<h1 style="margin-top: 230px; font-size:1.8em">Housing Prices and Homeownership</h2>
-					<p style="opacity: 0.7; font-size: 22px">Patricia Bilezikjian</p>
-					<p style="opacity: 0.7; font-size: 22px">Supervisor: Ulf von Lilienfeld</p>
-					<div data-id="1" style="background: white; position: absolute; top: 650px; width: 900px; height: 60px;"></div>
+					<h1>Housing Prices and Homeownership</h1>
+					<p class="authors" style="font-size:20px">Patricia Bilezikjian</p>
+					<p class="authors" style="font-size:20px">Supervisor: Ulf von Lilienfeld</p>
+					<div style="background: white; position: absolute; top: 650px; width: 1000px; height: 90px;"></div>
 				</section>
 
 				<!------------------------------------------  motivation  --------------------------------------------->
 				<section> 
 					<section> 
-						<h3 style="position=absolute; margin-left:-720px"> Motivation</h3>
+						<h2> Motivation</h2>
 						<hr>
 						<!----model equilibrium housing prices when interest rate deductions are eliminatedThis is when any connexion stops...with them----------->
 						<!----housing prices are endogenous on a GE framework with Overlapping generations, hh can rent an or owneroccupy----------->
-						<blockquote  style="position=absolute; margin-top: 150px;">
-							&ldquo;Reduced house prices allow households to become homeowners 
+						<blockquote  style="position=absolute; margin-top: 150px;">&ldquo;Reduced house prices allow households to become homeowners 
 						because the minimum down payment required to purchase a house falls.&rdquo;
 						<p style="font-size: 16px; text-align: left">Sommer and Sullivan (AER, 2018) </p>
 						</blockquote>
 					</section>
 					<!------------------------------------------  Research question  --------------------------------------------->
 					<section> 
-						<h3 style="position=fixed; margin-left:-525px"> Research question</h3>
+						<h2> Research question</h2>
 						<hr>
-						<ul>
-							<li style="position=absolute; margin-top: 110px; font-size: 26px;">Is it possible to isolate decrease in house prices from other determinants of homeownership? <font size="3" color="#D3D3D3">ENDOGENEITY - house prices, mortgage rates, income</font></li> 
-							<br>
-							<li style="font-size: 26px;">How homeownership reacts to an exogenous shock in housing prices? </li>
-							<br>
-							<li style="font-size: 26px;">Can this reveal by how much potential homeowners were constrained by down payment?</li> 
-						</ul>
+						<div class="container">
+							<ul>
+								<li>Is it possible to isolate decrease in house prices from other determinants of homeownership? 
+									<font size="3" color="#D3D3D3">ENDOGENEITY - prices, rates, income</font></li> 
+								<br>
+								<li>How homeownership reacts to an exogenous shock in housing prices? </li>
+								<br>
+								<li>Can this reveal by how much potential homeowners were constrained by down payment?</li> 
+							</ul>
+						</div>
+						
 					</section>
 					<!------------------------------------------  Importance  --------------------------------------------->
 					<section> 
-						<h3 style="position=absolute; margin-left:-690px"> Importance</h3>
+						<h2> Importance</h2>
 						<hr>
-						<ul>
-							<li style="position=absolute; margin-top: 110px; font-size: 26px;">housing is the main asset of a household</p>
-							<br>
-							<li style="font-size: 26px;">housing crisis in main metropolitan areas</li> <!---gentrification, inequality and inadequate livin conditions-->
-							<br>
-							<li style="font-size: 26px;">welfare of homeowners x homeowners-to-be</li>
-						</ul>
-						</ul>
+						<div class="container" >
+							<ul>
+								<li>housing is the main asset of a household</li>
+								<br>
+								<li>housing crisis in main metropolitan areas</li> <!---gentrification, inequality and inadequate livin conditions-->
+								<br>
+								<li>welfare of homeowners x homeowners-to-be</li>
+							</ul>
+						</div>
 					</section>
 					<!------------------------------ REFERENCE FROM SOMMER AND SULLIVAN  ------------------------------------------>
 					<!---Sommer and Sullivan (AER, 2018) REFERENCE model equilibrium housing prices 
@@ -80,49 +80,64 @@
 						because the minimum down payment required to purchase a house falls.  ---->
 					<!-----------------------------------------     Methodology      -------------------------------------------->
 					<section> 
-						<h3 style="position=absolute; margin-left:-650px">Methodology</h3>
+						<h2>Methodology</h2>
 						<hr>
-						<ul>
-							<li style="position=absolute; margin-top: 25px;font-size: 26px; margin-left:-200px;">Natural experiment </li>
-							<p style="font-size: 20px;margin-left:-200px;">- change in the rules of Real Estate GTOS</p>
-							<p style="font-size: 20px;margin-left:-200px;">- orders issued by <a>FinCEN </a>to report <a>beneficiary owner</a> of <a>cash purchases</a> of residential properties</p>
-							<div class="fragment">
-								<li style="position=absolute; margin-top: 40px;font-size: 26px; margin-left:-200px;">Experiment nice features:</li>
-								<p style="font-size: 20px;margin-left:-200px;">- buyers that want to keep secrecy - dont affect homeownership rates (residency anywherelse)</li> 
-								<p style="font-size: 20px;margin-left:-200px;">- activity of these marginal buyers is not affected by mortgage rates or tax exemptions</li>
-								<p style="font-size: 20px;margin-left:-200px;">- change in house prices not linked to economic activity</li> 
-							</div>
-							<div class="fragment">
-								<li style="position=absolute; margin-top: 40px; font-size: 26px;margin-left:-200px;">Data </li>
-								<p style="font-size: 20px;margin-left:-200px;">&nbsp;- county level housing price series Zillow
-								<p style="font-size: 20px;margin-left:-200px;">&nbsp;- ACS/Census 1 year</p>
-							</div>
-						</ul>
+						<div class="container" >
+							<ul>
+								<li>Natural experiment </li>
+								<ul>
+									<li>change in the rules of Real Estate GTOS</li>
+									<li>orders issued by <a>FinCEN </a>to report <a>beneficiary owner</a> of <a>cash purchases</a> of residential properties</li>
+								</ul>
+								<br>
+								<div class="fragment">
+								<li>Experiment nice features:</li>
+								<ul>
+									<li>buyers that want to keep secrecy - dont affect homeownership rates (residency anywherelse)</li> 
+									<li>activity of these marginal buyers is not affected by mortgage rates or tax exemptions</li>
+									<li>change in house prices not linked to economic activity</li> 
+								</ul>	
+								</div>
+								<div class="fragment">
+								<br>
+								<li>Data</li>
+									<ul>
+									<li>county level housing price series Zillow</li>
+									<li>ACS/Census 1 year</li>
+								</ul>
+								</div>
+							</ul>
+						</div>
 					</section>
 					<!-----------------------------------------     Contribution     -------------------------------------------->
 					<section> 
-						<h3 style="position=absolute; margin-left:-670px">Contribution</h3>
+						<h2>Contribution</h2>
 						<hr>
-						<ul>
-						<!-------- full of theoretical work --->
-							<li style="position=absolute; margin-top: 110px; font-size: 30px;">Literature on tenure choices - empirics and price shocks only</li>
-							<p style="position= absolute; margin-top: -5px; font-size: 24px;">Rosen &  Rosen, Sinai, Glaezer</p>
-
-								<p style="font-size: 26px;">&nbsp;- relative costs of owning x renting</p>
-								<p style="font-size: 26px;position= absolute; margin-top: -15px; ">&nbsp;- implications of interest deduction</p>
-							<br>
-						<!-------- explored here only for the first period and not --->
-							<li style="position=absolute; margin-top: 30px; font-size: 30px;">Real Estate GTO as a natural experiment for housing prices shocks</li>
-							<p style="position= absolute; margin-top: -5px; font-size: 24px;">Hundtofte & Rantala (WP, 2018)</p>
-						</ul>
+						<div class="container" >
+							<ul>
+							<!-------- full of theoretical work --->
+								<li>Literature on tenure choices - empirics and price shocks only</li>
+								<li style="list-style-type:none; font-size:.8em">Rosen &  Rosen, Sinai, Glaezer</li>
+								<br>
+									<ul>
+										<li>relative costs of owning x renting</li>
+										<li>implications of interest deduction</li>
+									</ul>
+								<br>
+								<br>
+							<!-------- explored here only for the first period and not --->
+								<li>Real Estate GTO as a natural experiment for housing prices shocks</li>
+								<li style="list-style-type:none; font-size:.8em">Hundtofte & Rantala (WP, 2018)</li>
+							</ul>
+						</div>
 					</section>
 				</section>
 				<!------------------------------------------  HOMEOWNERSHIP  -------------------------------------------------->
 				<!------------------------------------------  HOMEOWNERSHIP  -------------------------------------------------->
 				<!------------------------------------------  HOMEOWNERSHIP  -------------------------------------------------->
 				<section data-vertical-align-center>
-					<section> 
-						<h2 style="margin-top: 230px;">Homeownership</h2>
+					<section class="center"> 
+						<h3>Homeownership</h3>
 					</section>
 					<!------------------------------------------  Homeownership GRAPH  --------------------------------------------->
 					
@@ -130,66 +145,65 @@
 					<!--------2 important CONCEPTS: WHAT EXPLAIN THE MOVEMENT??????---->
 					<!--------2 important CONCEPTS:RECESSIONS?????---->
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> Homeownership</h3>
+						<h2> Homeownership</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 540px; border:none;
-						size=50%" src="../../zillow/images/jm01_homeownership.html"></iframe>	
+						<iframe  class = "large-plot0" src="../../zillow/images/jm01_homeownership.html"></iframe>	
 					</section>
 					<!------------------------------------------  homeownership fundamentals  --------------------------------------------->
 					
 					<!--------PROPENSITY (DEMOGRAPHIC, BEHAVIORAL) + BUDGET CONSTRAINT (AFFORDABILITY) ---->
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px">Fundamentals</h3>
+						<h2>Fundamentals</h2>
 						<hr>
 						<!--------The propensity to become homeowner increases as cost of ownership lowers and rentals do not respond immediatelly---->
 						<!--------dont loose sight that I am considering propensity constant (changes with rentals---->
-						<ul>
-							<p style="position=absolute; margin-top: 50px; font-size: 30px;">Propensity to become homeowner</p>
-							<li style=" font-size: 20px;">cost of ownership x rental (includes tax exemption and real estate taxes)</li> 
-							<li style="font-size: 20px;">hedge cost of housing services</li>
-							<li style="font-size: 20px;">investment</li> <!-- low risk spreads-->
-							<li style="font-size: 20px;">consumer confidence</li> <!-- after great crisis, peoples perspective on how "immune" to income loss-->
-							<li style="font-size: 20px;">mobility</li>
-							<li style="font-size: 20px;">tenure choices available</li>
-							<li style="font-size: 20px;">bequests motives</li>
-							<li style="font-size: 20px;">on, on, on...</li>
-							<!--------Budget constraint, analysis take affordability measures - meadian house prices over income --->
-							<!--------AFFORDABILITY ALONE WONT EXPLAIN - AN IMPORTANT ITEM IS DOWN PAYMENT   ---->
-							<p style="position=absolute; margin-top: 50px; font-size: 30px;"> Budget constraint:</p>
-							<li style="font-size: 20px;">capacity to repay mortgage + interest with income</li>
-							<li style="font-size: 20px;">down payment </li><!--- can represent 20%-->
-						</ul>
+						<div class="container" >
+							<ul>
+								<li style="list-style-type:none;">Propensity to become homeowner</li>
+								<ul>
+									<li>cost of ownership x rental (includes tax exemption and real estate taxes)</li> 
+									<li>hedge cost of housing services</li>
+									<li>investment</li> <!-- low risk spreads-->
+									<li>consumer confidence</li> <!-- after great crisis, peoples perspective on how "immune" to income loss-->
+									<li>mobility</li>
+									<li>tenure choices available</li>
+									<li>bequests motives</li>
+									<li>on, on, on...</li>
+								</ul>
+								<br>
+								<!--------Budget constraint, analysis take affordability measures - meadian house prices over income --->
+								<!--------AFFORDABILITY ALONE WONT EXPLAIN - AN IMPORTANT ITEM IS DOWN PAYMENT   ---->
+								<li style="list-style-type:none;"> Budget constraint:</li>
+								<ul>
+									<li>capacity to repay mortgage + interest with income</li>
+									<li>down payment </li><!--- can represent 20%-->
+								</ul>
+							</ul>
+						</div>
 					</section>	
 					<!--------------------------------------  COMPARISON HOUSE PRICES AND INCOME X HOMEOWNERSHIP --------------------------------------------->
 					<section> 
-						<h3 style="position=absolute; margin-left:-700px"> Fundamentals</h3>
+						<h2>Fundamentals</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 150px; border:none;
-						size=50%" src="../../zillow/images/jm_f1.html"></iframe>	
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 150px; border:none;
-						size=30%" src="../../zillow/images/jm_f2.html"></iframe>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 170px; border:none;
-						size=30%" src="../../zillow/images/jm_f3.html"></iframe>							
+						<iframe class="fundamentals" src="../../zillow/images/jm_f1.html"></iframe>	
+						<iframe class="fundamentals" src="../../zillow/images/jm_f2.html"></iframe>
+						<iframe class="fundamentals2" src="../../zillow/images/jm_f3.html"></iframe>							
 					</section>
 
 					<!--------------------------------------  COMPARISON HOUSE PRICES AND INCOME X HOMEOWNERSHIP --------------------------------------------->
 					<section> 
-						<h3 style="position=absolute; margin-left:-700px"> Fundamentals</h3>
+						<h2>Fundamentals</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 150px; border:none;
-						size=50%" src="../../zillow/images/jm_f4.html"></iframe>	
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 150px; border:none;
-						size=30%" src="../../zillow/images/jm_f5.html"></iframe>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 170px; border:none;
-						size=30%" src="../../zillow/images/jm_f6.html"></iframe>	
+						<iframe class="fundamentals" src="../../zillow/images/jm_f4.html"></iframe>	
+						<iframe class="fundamentals" src="../../zillow/images/jm_f5.html"></iframe>
+						<iframe class="fundamentals2" src="../../zillow/images/jm_f6.html"></iframe>	
 					</section>
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-700px"> Affordability</h3>
+						<h2>Affordability</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 540px; border:none;
-						size=50%" src="../../zillow/images/jm15_affordability.html"></iframe>	
-						<h3 style="position= absolute; margin-top: -480px; margin-left: 70px;font-size: 15px ">\(\frac{30\% \text{median income}_{HH}}{\text{pmt}_\text{median house sales price}}\)</h3>
+						<iframe class="large-plot" src="../../zillow/images/jm15_affordability.html"></iframe>	
+						<h2 style="position= absolute; margin-top: -485px; margin-left: 450px;font-size: 15px ">\(\frac{30\% \text{median income}_{HH}}{\text{pmt}_\text{median house sales price}}\)</h2>
 					</section>
 				</section>
 
@@ -199,143 +213,152 @@
 
 				<!----bexar= Sanantonio--->
 				<section data-vertical-align-center>
-					<section> 
-						<h2 style="margin-top: 230px;">The Experiment</h2>
+					<section class="center"> 
+						<h3>The Experiment</h3>
 					</section>
 
 					<!------------------------------------------  GTO  map --------------------------------------------->
 					<!--fincen to assist regulators and law enforcement agencies in identifying criminal activity-->
 					<section> 
-						<h3 style="position=absolute; margin-left:-830px"> GTOs</h3>
+						<h2> GTOs</h2>
 						<hr>
+						<div class="container">
 							<ul>
-							<li style="position=absolute; margin-top: 100px;font-size: 26px; margin-left:-200px;">GTOs - Geographic Targeting Orders </li>
-							<p style="font-size: 20px;margin-left:-200px;">- issued by FinCen - Treasury's department of Financial Crimes Enforcement Network</p>
-							<p style="font-size: 20px;margin-left:-200px;">- aditional recordkeeping and reporting requirements to agents</p>
-							<p style="font-size: 20px;margin-left:-200px;">- transactions above a threshold</p>
-							<p style="font-size: 20px;margin-left:-200px;">- valid for 180 days</p>
+								<li style="list-style-type:none;">GTOs - Geographic Targeting Orders </li>
+								<ul>
+									<li>issued by FinCen - Treasury's department of Financial Crimes Enforcement Network</li>
+									<li>aditional recordkeeping and reporting requirements to agents</li>
+									<li>transactions above a threshold</li>
+									<li>valid for 180 days</li>
+								</ul>
+							</ul>
+						</div>
 					</section>
 							
 							
 					<section> 
-						<h3 style="position=absolute; margin-left:-500px"> Real Estate GTOs</h3>
-						<hr>	
+						<h2> Real Estate GTOs</h2>
+						<hr>
+						<div class="container">	
 							<ul>
-							<li style="position=absolute; margin-top: 45px;font-size: 26px; margin-left:-200px;">Residential real state can be used for money laundering:</li> <!-- US. accused of leaving a loophole for criminal money -->
-							<p style="font-size: 20px;margin-left:-200px;">1. purchaser is a company</p>
-							<p style="font-size: 20px;margin-left:-200px;">2. no loans involved</p>
-							<p style="font-size: 20px;margin-left:-200px"><font size="3" color="#D3D3D3">final beneficiary is unknown</font></p>
-							<div class="fragment">
-								<li style="position=absolute; margin-top: 45px;font-size: 26px; margin-left:-200px;">Real Estate GTOs</li> 
-								<p style="font-size: 20px;margin-left:-200px;">- 1 and 2 </p> 
-								<p style="font-size: 20px;margin-left:-200px;">- varied thresholds</p> 
-								<p style="font-size: 20px;margin-left:-200px;">- first on March/2016, last May/2020</p> 
-								<p style="font-size: 20px;margin-left:-200px;"><font size="3" color="#D3D3D3">report the beneficial owners to FinCEN (later 25%)</font></p> <!-- natural persons behind the company-->
-							</div>
+								<li>Residential real state can be used for money laundering:</li> <!-- US. accused of leaving a loophole for criminal money -->
+								<ol>
+									<li>purchaser is a company</li>
+									<li>no loans involved</li>
+									<li style="list-style-type:none;"><font size="3" color="#D3D3D3">final beneficiary is unknown</font></li>
+								</ol>
+								<br>
+								<div class="fragment">
+									<li>Real Estate GTOs</li> 
+									<ul>
+										<li>1 and 2 </li> 
+										<li>varied thresholds</li> 
+										<li>first on March/2016, last May/2020</li> 
+										<li style="list-style-type:none;"><font size="3" color="#D3D3D3">report the beneficial owners to FinCEN (later 25%)</font></li> <!-- natural persons behind the company-->
+									</ul>
+								</div>
+							</ul>	
+						</div>
 					</section>
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-800px"> GTO lit</h3>
+						<h2> GTO lit</h2>
 						<hr>	
 						<ul>
-							<li style="position=absolute; margin-top: 45px;font-size: 26px;">size and impact of anonymity-seeking capital on US housing markets</li> <!-- US. accused of leaving a loophole for criminal money -->
-							<p style="position= absolute; margin-top: -4px; font-size: 20px;">Hundtofte, Rantala (WP, 2018)</p>
-							<p style="font-size: 20px;">- all-cash corporate residential real estate purchases drop from 10% to 2.5% (US$)</p>
-							<p style="font-size: 20px;">- decline in top-tier prices 4-5% (hedonic model)<font size="3" color="#D3D3D3">first 2 waves</font></p>
-							<img src="../../zillow/images/Anonimity.png" width="500" height="300">
+							<li style="list-style-type:none;" >size and impact of anonymity-seeking capital on US housing markets</li> <!-- US. accused of leaving a loophole for criminal money -->
+							<li style="list-style-type:none; font-size:.6em">Hundtofte, Rantala (WP, 2018)</li>
+							<br>
+							<ul>
+								<li> all-cash corporate residential real estate purchases drop from 10% to 2.5% (US$)</li>
+								<li> decline in top-tier prices 4-5% (hedonic model)<font size="3" color="#D3D3D3">first 2 waves</font></li>
+								<img src="../../zillow/images/Anonimity.png" width="500" height="300">
+							</ul>
+						</ul>
 					</section>
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-800px"> GTO lit</h3>
-						<hr>	
-						<ul>
-							<li style="position=absolute; margin-top: 45px;font-size: 26px;">My take:</li> 
-							<p style="font-size: 20px;">- aim in experiment is the exogenous shock (not AML/mismeasurement of international flows)</p> 
-							<p style="font-size: 20px;">- main effects are on 4 and 6 waves</p> 
-							<p style="font-size: 20px;">- synthetic control: build counterfactuals based on fundamentals for each local market (not just pool of not treated)</p> 
-							<p style="font-size: 20px;">- take into account impact of thresholds on each particular market</p> 		
+						<h2> GTO lit</h2>
+						<hr>
+						<div class="container" >	
+							<ul>
+								<li style="list-style-type:none;" >My take:</li> 
+								<ul>
+									<li>aim in experiment is the exogenous shock (not AML/mismeasurement of international flows)</li> 
+									<li>main effects are on 4 and 6 waves</li> 
+									<li>synthetic control: build counterfactuals based on fundamentals for each local market (not just pool of not treated)</li> 
+									<li>take into account impact of thresholds on each particular market</li>
+								</ul>
+							</ul> 		
+						</div>
 					</section>
 
 					<!------------------------------------------  GTO  map --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-640px"> RGTO Waves</h3>
+						<h2> RGTO Waves</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 540px; border:none;
-						size=50%" src="../../zillow/images/jm_GTO_map_waves.html"></iframe>	
+						<iframe class="wave-map" src="../../zillow/images/jm_GTO_map_waves.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  4th wave --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> RGTO Thresholds</h3>
+						<h2> RGTO Thresholds</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 540px; border:none;
-						size=50%" src="../../zillow/images/jm_GTO_4th_wave.html"></iframe>	
+						<iframe class="wave-map" src="../../zillow/images/jm_GTO_4th_wave.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  6th wave --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> RGTO Thresholds</h3>
+						<h2> RGTO Thresholds</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-200; width: 900px; height: 540px; border:none;
-						size=50%" src="../../zillow/images/jm_GTO_6th_wave.html"></iframe>	
+						<iframe class="wave-map" src="../../zillow/images/jm_GTO_6th_wave.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  Time series --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> House Prices</h3>
+						<h2> House Prices</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-500; width: 900px; height: 300px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS1_NY.html"></iframe>	
-						<iframe style="position=absolute; margin-top: -10px; width: 900px; height: 280px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS2_NY.html"></iframe>	
+						<iframe class="hp1" src="../../zillow/images/jm_GTO_TS1_NY.html"></iframe>	
+						<iframe class="hp2" src="../../zillow/images/jm_GTO_TS2_NY.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  Time series --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> House Prices</h3>
+						<h2> House Prices</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-500; width: 900px; height: 300px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS1_FL.html"></iframe>	
-						<iframe style="position=absolute; margin-top: -10px; width: 900px; height: 280px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS2_FL.html"></iframe>	
+						<iframe class="hp1" src="../../zillow/images/jm_GTO_TS1_FL.html"></iframe>	
+						<iframe class="hp2" src="../../zillow/images/jm_GTO_TS2_FL.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  Time series --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> House Prices</h3>
+						<h2> House Prices</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-500; width: 900px; height: 300px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS1_CA.html"></iframe>	
-						<iframe style="position=absolute; margin-top: -10px; width: 900px; height: 280px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS2_CA.html"></iframe>	
+						<iframe class="hp1" src="../../zillow/images/jm_GTO_TS1_CA.html"></iframe>	
+						<iframe class="hp2" src="../../zillow/images/jm_GTO_TS2_CA.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  Time series --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> House Prices</h3>
+						<h2> House Prices</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-500; width: 900px; height: 300px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS1_NV.html"></iframe>	
-						<iframe style="position=absolute; margin-top: -10px; width: 900px; height: 280px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS2_NV.html"></iframe>	
+						<iframe class="hp1" src="../../zillow/images/jm_GTO_TS1_NV.html"></iframe>	
+						<iframe class="hp2" src="../../zillow/images/jm_GTO_TS2_NV.html"></iframe>	
 					</section>
 
 					<!------------------------------------------  GTO  Time series --------------------------------------------->
 
 					<section> 
-						<h3 style="position=absolute; margin-left:-580px"> House Prices</h3>
+						<h2> House Prices</h2>
 						<hr>
-						<iframe style="position=absolute; margin-top:-500; left: 300; width: 900px; height: 300px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS1_WA.html"></iframe>	
-						<iframe style="position=absolute; margin-top: -10px; width: 900px; height: 280px; border:none;
-						size=40%" src="../../zillow/images/jm_GTO_TS2_WA.html"></iframe>	
+						<iframe class="hp3" src="../../zillow/images/jm_GTO_TS1_WA.html"></iframe>	
+						<iframe class="hp4" src="../../zillow/images/jm_GTO_TS2_WA.html"></iframe>	
 					</section>
 
 				</section>
@@ -343,30 +366,45 @@
 
 				<!-----------------------------------------  Conclusion  ------------------------------------------->
 				<section> 
-					<h3 style="position=absolute; margin-left:-600px">Conclusion</h3>
+					<h2>Conclusion</h2>
 					<hr>
-					<p style="position=absolute; margin-top: 30px; font-size: 26px;">WORK IN PROGRESS</p>
-					<ul>
-						<p style="position=absolute; margin-top: 110px; font-size: 26px;">Preliminary work on how an exogenous shock in house prices affects homeownership rates on main metropolitan areas in the US.</p>
-						<p style="position=absolute; margin-top: 70px; font-size: 26px;">Next steps:</p> 
-						<p style="font-size: 26px;">&nbsp;- conterfactuals - synthetic control... (change in prices and homeownership) </p>
-						<p style="font-size: 26px;">&nbsp;- use disagregate transaction data</p>
-					</ul>
+					<div class="container" >
+						<p>WORK IN PROGRESS</p>
+
+						<br>
+						<ul>
+							<li>Preliminary work on how an exogenous shock in house prices affects homeownership rates on main metropolitan areas in the US.</li>
+							<br>
+							<br>
+
+							<li>Next steps:</li> 
+							<ul>
+								<li>conterfactuals - synthetic control... (change in prices and homeownership) </li>
+								<li>use disagregate transaction data</li>
+							</ul>
+						</ul>
+					</div>
 				</section> 
 
 				<!------------------------------------------  END   -------------------------------------------------->
+				<!------------------------------------------  TITLE  -------------------------------------------------->
 				<section data-vertical-align-center>
-					<h2 style="margin-top: 230px;">Housing Prices and Homeownership</h2>
-					<p style="opacity: 0.7; font-size: 22px">Patricia Bilezikjian</p>
-					<p style="opacity: 0.7; font-size: 22px">Supervisor: Ulf von Lilienfeld</p>
-					<div data-id="1" style="background: white; position: absolute; top: 650px; width: 900px; height: 60px;"></div>
+					<h1>Housing Prices and Homeownership</h1>
+					<p class="authors" style="font-size:20px">Patricia Bilezikjian</p>
+					<p class="authors" style="font-size:20px">Supervisor: Ulf von Lilienfeld</p>
+					<div style="background: white; position: absolute; top: 650px; width: 1000px; height: 90px;"></div>
 				</section>
+
+
+				<!-- <div class="slides"> -->
+				
+
 				<!-----------------------------------------  template: logo, footnote   ------------------------------------------->
 
 				<img style="position: absolute; margin-top: 0; right: -50px; width:35%; height:14%" src="../../zillow/images/logo2.png" >
                 <br>
-                <pre><h3 style="position=absolute; margin-top: 647px; opacity: 0.7; font-size: 15px ">Housing prices and Homeownership / Bilezikjian and Lilienfed</p></pre>
-				</div>
+                <pre><h2 style="position=absolute; margin-top: 647px; opacity: 0.7; font-size: 15px ">Housing prices and Homeownership / Bilezikjian and Lilienfed</p></pre>
+				<!-- </div> -->
 			</div>
 		</div>
 

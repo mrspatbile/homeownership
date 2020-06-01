@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>mock_completo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/simplePatricia.css" id="theme">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!------------------------------------------  TITLE  -------------------------------------------------->
+				
+				<!------------------------------------------  motivation  --------------------------------------------->
+				
+					<!------------------------------------------  Homeownership GRAPH  --------------------------------------------->
+					
+					<!--------1 important CONCEPTS: homeownership is % households that owneroccupy---->
+					<!--------2 important CONCEPTS: WHAT EXPLAIN THE MOVEMENT??????---->
+					<!--------2 important CONCEPTS:RECESSIONS?????---->
+					<section> 
+						
+						<h2> Homeownership</h2>
+						<hr>
+						<div class="container" >
+							<iframe  class = "large-plot0" src="../../zillow/images/jm01_homeownership.html"></iframe>	
+						<div>
+					</section>
+					<!------------------------------------------  homeownership fundamentals  --------------------------------------------->
+
+					<section> 
+						<h2>Fundamentals</h2>
+						<hr>
+						
+							<iframe class="fundamentals" src="../../zillow/images/jm_f1.html"></iframe>	
+							<iframe class="fundamentals" src="../../zillow/images/jm_f2.html"></iframe>
+							<iframe class="fundamentals2" src="../../zillow/images/jm_f3.html"></iframe>
+						
+					</section>
+
+					<!--------------------------------------  COMPARISON HOUSE PRICES AND INCOME X HOMEOWNERSHIP --------------------------------------------->
+					<section> 
+						<h2>Fundamentals</h2>
+						<hr>
+						
+							<iframe class="fundamentals" src="../../zillow/images/jm_f4.html"></iframe>	
+							<iframe class="fundamentals" src="../../zillow/images/jm_f5.html"></iframe>
+							<iframe class="fundamentals2" src="../../zillow/images/jm_f6.html"></iframe>	
+						
+					</section>
+
+					<section> 
+						<h2>Affordability</h2>
+						<hr>
+						<!-- <div class="container" > -->
+							<iframe class="large-plot" src="../../zillow/images/jm15_affordability.html"></iframe>	
+							<h2 style="position= absolute; margin-top: -485px; margin-left: 450px;font-size: 15px ">\(\frac{30\% \text{median income}_{HH}}{\text{pmt}_\text{median house sales price}}\)</h2>
+						<!-- </div> -->
+					</section>
+				
+
+				
+
+					<section> 
+						<h2> RGTO Waves</h2>
+						<hr>
+						<div class="container" >
+							<iframe class="wave-map" src="../../zillow/images/jm_GTO_map_waves.html"></iframe>	
+						</div>
+					</section>
+
+					<!------------------------------------------  GTO  4th wave --------------------------------------------->
+
+					<section> 
+						<h2> RGTO Thresholds</h2>
+						<hr>
+						<div class="container" >
+						
+							<iframe class="wave-map" src="../../zillow/images/jm_GTO_4th_wave.html"></iframe>	
+						</div>
+					</section>
+
+
+
+
+
+
+
+
+
+
+
+				
+
+				
+
+				<!-----------------------------------------  template: logo, footnote   ------------------------------------------->
+
+				<img style="position: absolute; margin-top: 0; right: -50px; width:35%; height:14%" src="../../zillow/images/logo2.png" >
+                <br>
+                <pre><h2 style="position=absolute; margin-top: 647px; opacity: 0.7; font-size: 15px ">Housing prices and Homeownership / Bilezikjian and Lilienfed</p></pre>
+				<!-- </div> -->
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+				transition: 'none',
+				center: false,
+				slideNumber: true,
+				showSlideNumber: 'all',
+
+				math: {
+					// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+
+				dependencies: [
+					{ src: 'math.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>

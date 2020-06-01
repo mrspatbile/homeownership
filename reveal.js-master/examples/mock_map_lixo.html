@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>mock_map</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/simplePatricia.css" id="theme">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!------------------------------------------  TITLE  -------------------------------------------------->
+				
+				
+
+				
+
+					<section> 
+						<h2> RGTO Waves</h2>
+						<hr>
+						<iframe class="wave-map" src="../../zillow/images/jm_GTO_map_waves.html"></iframe>	
+					</section>
+
+					
+
+				
+
+
+				
+
+				
+
+				<!-----------------------------------------  template: logo, footnote   ------------------------------------------->
+
+				<img style="position: absolute; margin-top: 0; right: -50px; width:35%; height:14%" src="../../zillow/images/logo2.png" >
+                <br>
+                <pre><h2 style="position=absolute; margin-top: 647px; opacity: 0.7; font-size: 15px ">Housing prices and Homeownership / Bilezikjian and Lilienfed</p></pre>
+				<!-- </div> -->
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+				transition: 'none',
+				center: false,
+				slideNumber: true,
+				showSlideNumber: 'all',
+
+				math: {
+					// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+
+				dependencies: [
+					{ src: 'math.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
